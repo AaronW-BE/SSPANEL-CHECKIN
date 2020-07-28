@@ -64,5 +64,5 @@ function checkIn(user, pass) {
 }
 
 function log(...args) {
-  console.log(new Date().toLocaleTimeString(), args)
+  console.log(new Date().toLocaleString(), args)
 }
